@@ -1,0 +1,251 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <!-- Configurações básicas do cabeçalho -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- SEO -->
+  <title>Redpill: Desperte Para a Verdade</title>
+
+  <!-- Meta Description -->
+  <meta name="description" content="Acorde para a realidade. Se liberte das mentiras e assuma o controle da sua vida. Descubra a verdade sobre poder, autossuficiência e relacionamentos." />
+
+  <!-- Meta Keywords -->
+  <meta name="keywords" content="redpill, poder, autossuficiência, mentalidade masculina, relacionamentos, liberdade financeira" />
+
+  <!-- Meta Robots (diretivas para motores de busca) -->
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph (para compartilhar nas redes sociais) -->
+  <meta property="og:title" content="Redpill: Desperte Para a Verdade" />
+  <meta property="og:description" content="Acorde para a realidade. Se liberte das mentiras e assuma o controle da sua vida. Descubra a verdade sobre poder, autossuficiência e relacionamentos." />
+  <meta property="og:image" content="URL_da_imagem" />
+  <meta property="og:url" content="URL_do_site" />
+  <meta property="og:type" content="website" />
+
+  <!-- Twitter Card (para Twitter) -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Redpill: Desperte Para a Verdade" />
+  <meta name="twitter:description" content="Acorde para a realidade. Se liberte das mentiras e assuma o controle da sua vida." />
+  <meta name="twitter:image" content="URL_da_imagem" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="URL_do_favicon" type="image/x-icon" />
+
+  <!-- Estilos CSS -->
+  <style>
+    body {
+      margin: 0;
+      background-color: #1b1b1b; /* Fundo escuro com tom de cinza */
+      color: #fff;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      position: relative;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color:yellow; /* Vermelho intenso */
+      text-shadow: 1px 1px 3px black;
+    }
+
+    #video-container {
+      width: 100%;
+      max-width: 800px;
+      aspect-ratio: 16 / 9;
+      margin-bottom: 10px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0 0 15px #ff0000; /* Vermelho forte */
+    }
+
+    #video-title {
+      max-width: 800px;
+      text-align: center;
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      color: #ffcc00; /* Dourado */
+      text-shadow: 1px 1px 2px black;
+      min-height: 2.5em;
+    }
+
+    button {
+      background-color: yellow; /* Vermelho forte */
+      border: none;
+      padding: 12px 25px;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 6px;
+      margin-bottom: 40px;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #e60000;
+    }
+
+    #unique-string {
+      max-width: 90%;
+      background-color: #222; /* Cinza escuro */
+      border-radius: 8px;
+      padding: 15px;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 14px;
+      white-space: pre-wrap;
+      word-break: break-word;
+      color: #ccc;
+      user-select: text;
+      margin-top: auto;
+    }
+
+    /* Propagandas piscantes */
+    #propaganda-piscante, #propaganda-piscante2 {
+      position: fixed;
+      background-color: #ff0000; /* Vermelho intenso */
+      color: white;
+      font-weight: bold;
+      padding: 10px 15px;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      animation: piscar 1s infinite alternate;
+      box-shadow: 0 0 10px #ff4500;
+      z-index: 1000;
+      user-select: none;
+    }
+
+    /* Propaganda no topo */
+    #propaganda-piscante {
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    /* Propaganda no rodapé */
+    #propaganda-piscante2 {
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    @keyframes piscar {
+      0% { opacity: 1; }
+      100% { opacity: 0.3; }
+    }
+
+    /* Ajustes para mobile */
+    @media (max-width: 600px) {
+      #video-container {
+        max-width: 100%;
+        aspect-ratio: auto;
+        height: 215px;
+      }
+
+      #video-title {
+        font-size: 16px;
+      }
+
+      /* Reduz o tamanho das propagandas no mobile */
+      #propaganda-piscante, #propaganda-piscante2 {
+        font-size: 14px;
+        padding: 8px 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Título principal da página -->
+  <h1>Redpill: A Verdade Revelada tudo que você precisa saber</h1>
+
+  <!-- Container onde o vídeo será carregado via JavaScript -->
+  <div id="video-container"></div>
+
+  <!-- Título do vídeo carregado -->
+  <div id="video-title">Carregando título...</div>
+
+  <!-- Botão para trocar vídeo aleatório -->
+  <button onclick="trocarVideo()">Trocar Vídeo</button>
+
+  <!-- Texto aleatório no fim da tela para tornar o conteúdo único -->
+  <div id="unique-string">Carregando conteúdo único...</div>
+
+  <!-- Propaganda piscante no canto direito -->
+  <div id="propaganda-piscante" onclick="window.open('https://victorxx.github.io/redirecionadorlinksgit1/', '_blank')">
+    OFERTA IMPERDÍVEL!
+  </div>
+
+  <!-- Propaganda piscante no canto esquerdo -->
+  <div id="propaganda-piscante2" onclick="window.open('https://victorxx.github.io/airbnbrandom01/', '_blank')">
+    COMECE NO AIRBNB HJ MESMO
+  </div>
+
+  <!-- JavaScript responsável pela lógica da página -->
+  <script>
+    // Lista de vídeos com seus IDs do YouTube e títulos personalizados relacionados a dancinhas
+    const videos = [
+      {id:"GEWz0lvy6u0",titulo:"RICA GAMES É ACUSADO POR ANÔNIMO DE COMETER IMPORTUNAÇÃO SEX@AL, PEDO E MAIS"},
+      {id:"N6vPd8K0xr4",titulo:"RENANPLAY TRAZ NOVAS INFORMAÇÕES SOBRE O RICA GAMES - SÓ BABADO FORTE"},
+      {id:"dTWE7zSp3sM",titulo:"Monark falando que existem LASERS que podem DESINTEGRAR a gente"},
+      {id:"K3BcC_2Spxo",titulo:"O POBRE É UMA ZONA, MAS VOCÊ PODE MUDAR ISSO"},
+      {id:"c-tkl0DfDIY",titulo:"tiozão mandando o ppapo"},
+      {id:"0RI-XfY-1Mk",titulo:"SÓ QUEM JÁ PASSOU POR UM DIVÓRCIO SABE O VALOR DA SOLIDÃO"},
+      {id:"Q8_qFZtQfUE",titulo:"É engraçado quando ela pede os planos por problemas financeiros, a cara fica solteira e próspera e ela continua quebrada"}
+     
+    ];
+
+    // Retorna um vídeo aleatório da lista
+    function getRandomVideo() {
+      return videos[Math.floor(Math.random() * videos.length)];
+    }
+
+    // Troca o vídeo exibido e atualiza o título
+    function trocarVideo() {
+      const video = getRandomVideo();
+      const container = document.getElementById('video-container');
+      const tituloEl = document.getElementById('video-title');
+
+      container.innerHTML = `<iframe 
+        src="https://www.youtube.com/embed/${video.id}" 
+        allowfullscreen 
+        loading="lazy" 
+        title="${video.titulo}"
+      ></iframe>`;
+
+      tituloEl.textContent = video.titulo;
+    }
+
+    // Gera uma string aleatória com letras, números e caracteres especiais
+    function gerarStringUnica(tamanho = 500) {
+      const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()_+-=[]{}|;:,.<>?';
+      let resultado = '';
+      for(let i = 0; i < tamanho; i++) {
+        resultado += chars.charAt(Math.floor(Math.random() * chars.length));
+      }
+      return resultado;
+    }
+
+    // Executa ao carregar a página
+    document.addEventListener('DOMContentLoaded', () => {
+      trocarVideo(); // Carrega o vídeo inicial
+      document.getElementById('unique-string').textContent = gerarStringUnica(); // Gera a string aleatória no final
+    });
+  </script>
+
+</body>
+</html>
