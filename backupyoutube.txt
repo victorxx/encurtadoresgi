@@ -200,6 +200,8 @@
     // Lista de vídeos com seus IDs do YouTube e títulos personalizados relacionados a dancinhas
     const videos = [
       {id:"GEWz0lvy6u0",titulo:"RICA GAMES É ACUSADO POR ANÔNIMO DE COMETER IMPORTUNAÇÃO SEX@AL, PEDO E MAIS"},
+      {id:"qgdMKL9sMvE",titulo:"DEBATE | celibatário misantropo x conservador liberal"},
+      {id:"IsdR-6mnAs8",tiutlo:"procuro barracao ok"},
       {id:"N6vPd8K0xr4",titulo:"RENANPLAY TRAZ NOVAS INFORMAÇÕES SOBRE O RICA GAMES - SÓ BABADO FORTE"},
       {id:"dTWE7zSp3sM",titulo:"Monark falando que existem LASERS que podem DESINTEGRAR a gente"},
       {id:"K3BcC_2Spxo",titulo:"O POBRE É UMA ZONA, MAS VOCÊ PODE MUDAR ISSO"},
